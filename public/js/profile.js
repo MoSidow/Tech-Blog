@@ -17,7 +17,7 @@ const newFormHandler = async (event) => {
         document.location.replace('/profile');
       
       } else {
-        alert('Failed to create product');
+        alert('Failed to create blog');
       }
     }
   };
@@ -32,7 +32,7 @@ const newFormHandler = async (event) => {
       if (response.ok) {
         document.location.replace('/profile');
       } else {
-        alert('Failed to delete this product');
+        alert('Failed to delete this blog');
       }
     }
   };

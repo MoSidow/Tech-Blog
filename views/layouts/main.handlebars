@@ -17,17 +17,19 @@
         <nav>
                 {{#if logged_in}}
 
-
-                  <div class="logo"><a id="homepage" href="/">Home</a></div>
-                  <a href="/profile">Dashboard</a>
-                <button id="logout">Log Out</button>
+                <div class="loco-buttons">
+                <a href="/" class="button">Home</a></div>
+                  <a href="/profile" class="button">Dashboard</a>
+                <button id="logout" class="button">Log Out</button>
+                </div>
 
                 {{else}}
                 
-                <div class="logo"><a id="homepage" href="/">Home</a></div>
-                <a href="/profile">Dashboard</a>
-                <a class="login" href="/login">Log In</a>
-
+                <div class="loco-buttons">
+                <a href="/" class="button">Home</a>
+                <a href="/profile" class="button">Dashboard</a>
+                <a class="login button" href="/login">Log In</a>
+                </div>
                 {{/if}}
 
             </nav>

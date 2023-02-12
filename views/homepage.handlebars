@@ -1,18 +1,18 @@
 
 {{#each blogs as |blog|}}
-<div class="card">
+<div class="box">
   <div>
     <h2>
       <a class="product-title" href="/blog/{{blog.id}}">{{blog.title}}</a>
     </h2>
     </div>
-    <div class="inner-card">
-    <p class="posted-by">Posted By {{blog.user.name}} on {{format_date blog.date_created}}</p>
-  </div>
   <div class="description">
     <p>
       {{blog.description}}
     </p>
+  </div>
+  <div class="inner-card">
+    <p class="posted-by">Posted By {{blog.user.name}} on {{format_date blog.date_created}}</p>
   </div>
 </div>
 {{/each}}

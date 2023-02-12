@@ -1,0 +1,50 @@
+
+
+body,
+html {
+    height: 100%;
+}
+
+.header {
+    color: blue;
+    background-color: grey;
+    text-align: center;
+    padding: 3%;
+    font-size: 30px;
+}
+
+.button {
+    color: blue;
+    background-color: grey;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .loco-buttons {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 580px;
+  }
+
+  .box{
+    background-color: grey;
+    margin-left: 3%;
+    margin-top: 2%;
+    height: 250px;
+    width: 70%;
+    color: black;
+    border: 3px dotted blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    padding: 2%;
+}
+
+.product-title {
+    color: blue;
+}
